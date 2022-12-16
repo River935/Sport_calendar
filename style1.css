@@ -1,0 +1,106 @@
+body {
+    
+  margin-top: 50px;
+  justify-content: center;
+  background-color: #172863;
+}
+button {
+  width: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+#header button {
+  background-color:#3855BA;
+  border: 3px;
+  width: 50%;
+}
+
+
+#tb1{
+  width: 100%;
+  margin: auto;
+  color: #C0D9FF;
+  margin-top: auto;
+  position: absolute;
+  border: 3px;
+  padding:10px;
+  
+}
+#titlePage{
+  width: 100%;
+  margin: auto;
+  margin-left: auto;
+  color: #C0D9FF;
+  top: 50px;
+  border: 5px;
+  text-align: center;
+}
+
+/* mini phone and phone*/
+@media only screen and (min-width: 375px) and (max-width: 576px){
+  body {
+  
+      margin-top: 50px;
+      justify-content: center;
+      background-color: #172863;
+    }
+    button {
+      width: 5px;
+      cursor: pointer;
+      box-shadow: 0px 0px 2px gray;
+      border: none;
+      outline: none;
+      padding: 5px;
+      border-radius: 5px;
+      color: white;
+    }
+  
+    #header button {
+      background-color:#3855BA;
+      border: 3px;
+      width: 50%;
+    }
+    
+  
+    #tb1{
+      width: 100%;
+      margin: auto;
+      color: #C0D9FF;
+      margin-top: auto;
+      position: absolute;
+      border: 3px;
+      padding:10px;
+      
+    }
+    #titlePage{
+      width: 100%;
+      margin: auto;
+      margin-left: auto;
+      color: #C0D9FF;
+      top: 50px;
+      border: 5px;
+    }
+
+/* phone */
+@media only screen and (min-width: 576px) {
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 768px) {
+
+}
+/* desktop, 992px and up */
+@media only screen and (min-width: 992px) {
+
+}
+/*extra large */
+@media only screen and (min-width: 1200px) {
+
+}}

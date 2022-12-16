@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    	<!-- Setting the pages character encoding -->
+	<meta charset="UTF-8">
+
+	<!-- The meta viewport will scale my content to any device width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sport Calendar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    
+    <div class="container"> <!--container of the calendar app-->
+      <div class="imagetitle">
+        <img src=".\image006.jpg" alt="" class="center">
+      </div>
+      <div id="header">  
+        <button id="allEvents" >Events</button>
+        
+        <div id="monthDisplay"></div>
+        
+        <div>
+          <button id="backButton" ><</button>
+          <button id="nextButton">></button>
+        </div>
+      </div>
+
+  
+      <div class="weekdays">
+        
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+        <div>Sun</div>
+
+      </div>
+      
+      <div id="calendar"></div> <!--in the js file -->
+
+      <button id="deleteAllEvents" >Clear</button>
+     </div>
+
+
+    <div id="newEventModal">
+      <h2>New Event</h2>
+
+      <div><input id="eventTitleInput" placeholder="Teams" /></div>
+      <div><input id="hourEventInput" placeholder="time of the event" /></div>
+      <div><input id="sportEventInput" placeholder="sport" /></div>
+      <div><input id="cityEvent" placeholder="Name Home Team" /></div>
+      <div><input id="locationEvent" placeholder="Name Away Team" /></div>
+      <div><input id="lastEvent" placeholder="Origin Competition" /></div>
+      <div><output id="randomEvent" placeholder="random" ></div>
+      <div><output id="timeEventInput" placeholder="date"></div>
+
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    
+    </div>
+    
+    <div id="deleteEventModal">
+      <h2>Event</h2>
+
+      <p id="eventText"></p>
+      <p id="timeUTC"></p>
+      <p id="time"></p>
+      <p id="sport"></p>
+      <p id="city"></p>
+      <p id="location"></p>
+      <p id="last"></p>
+
+
+      <button id="deleteButton">Delete</button>
+      <button id="closeButton">Close</button>
+      <button id="detailedEvent">All Events</button>
+    </div>
+    
+    <div id="modalBackDrop"></div>
+
+    <script src="./script.js"></script>
+
+   
+  </body>
+</html>
